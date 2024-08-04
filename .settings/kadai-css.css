@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+/* セクション：ページ全体のCSS設定 */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    font-family: "Hiragino Sans";
+    width: 1000px;
+}
+
+body header {
+    background-color: #ffcccc;
+    }
+
+#wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+#main {
+    background-color: #ccffcc;
+    width: 700px;
+    }
+
+#menu {
+    background-color: #ccccff;
+    width: 300px;
+}
+
+footer {
+    background-color: #ffccff;
+
+}
+
